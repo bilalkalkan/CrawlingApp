@@ -35,9 +35,8 @@ Aynı şekilde HtmlNode classından bir oluşturduğum değişken ile istenilen 
   
   
   Daha sonra detay sayfasından ilan isimlerinin consolda ve txt dosyasına yazdım.
-  
-  
-   foreach (var deHtmlNode in detailNodes)
+ 
+    foreach (var deHtmlNode in detailNodes)
                 {
                     string result = deHtmlNode.Descendants("h1").FirstOrDefault().FirstChild.InnerText;
 

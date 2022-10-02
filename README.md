@@ -67,7 +67,7 @@ Aynı şekilde HtmlNode classından bir oluşturduğum değişken ile istenilen 
                 }
   
   Son olarak fiyat ortalamasını consolda yazdırdım.
-   //fiyatların ortalaması hesaplanıyor ve para formatına çevriliyor.
+   
             string avgPrice = priceList.Average(p => p).ToString("N2");
             Console.WriteLine("Ortalama fiyatı:" + avgPrice);
 
